@@ -1,0 +1,27 @@
+.secao-contato{
+    background-color: #000217;
+    color: #fff;
+}
+.box-ul-contato{
+    display: flex;
+    padding: 20px 0;
+}
+
+.ul-contato ul li a, .ul-redes-sociais ul li a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+}
+
+.img-contato{
+    width: 20px;
+    margin: 0 5px;
+}
+
+.ul-contato ul p:first-child, .ul-redes-sociais ul p:first-child{
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+

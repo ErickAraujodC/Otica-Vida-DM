@@ -1,0 +1,32 @@
+.secao-sobre{
+    width: 100%;
+    background-color: #d8d8d8;
+}
+
+.box-sobre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.card-sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 330px;
+    background-color: #fff;
+    box-sizing: content-box;
+    border: 1px solid #000;
+    height: 220px;
+
+}
+
+.card-sobre img{
+    width: 330px;
+}
+
+.card-sobre h4{
+    font-size: 1.3em;
+}
